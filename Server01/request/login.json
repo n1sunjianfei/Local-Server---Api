@@ -1,0 +1,26 @@
+ [
+
+      {
+        "request":{
+              "method" :"post",
+              "uri":"/login",
+              "headers":{"content-type":"application/json"},
+              "json":{
+                      "name" :"zhangsan",
+                      "password" :"123456"
+                      }
+        },
+        "response":{
+              "file":"response/login/login_suc_response.json"
+          }
+      },
+  
+      {
+        "request":{"method" :"post","uri":"/login"},
+        "response":{
+                "file":"response/login/login_fail_response.json"
+              }
+      }
+]
+
+

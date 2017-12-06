@@ -1,0 +1,35 @@
+ [
+
+    {
+  
+        "request":{
+              "method" :"post",
+              "uri":"/postMethod",
+              "headers":{
+                      "content-type":"application/json"
+                          },
+              "json":{
+                      "name" :"zhangsan",
+                      "password" :"123456"
+                      }
+        },
+
+        "response":{
+              "file":"response/post/postTest_response.json"
+                  }
+    },
+  
+    {
+        "request":{
+                "method" :"post",
+                "uri":"/postMethod"
+                },
+        "response":{
+                "text":"default"
+                }
+
+    }
+  
+]
+
+

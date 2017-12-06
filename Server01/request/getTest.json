@@ -1,0 +1,21 @@
+ [
+  {
+  "request":{
+  "method" :"get",
+  "uri":"/getTest",
+  "queries":{  "param1":"1",  "param2":"2"}
+  
+  },
+  
+  "response":{"file":"response/get/getTest_suc_response.json"}
+  },
+  
+  {
+  "request":{ "method" :"get", "uri":"/getTest"},
+  
+  "response":{ "file":"response/get/getTest_fail_response.json"}
+  
+  }
+  
+]
+
