@@ -1,0 +1,20 @@
+# git ignore
+xcuserdata
+.DS_Store
+
+
+.xcuserdatad
+xcuserdata
+.xcworkspacedata
+.xcuserstate
+.xcscheme
+ipa
+log
+Pods
+.DS_Store
+node_modules
+temp
+css
+dist
+.idea
+
